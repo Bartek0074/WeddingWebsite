@@ -1,0 +1,47 @@
+@media (min-width: 1200px) {
+
+    // COMPONENTS
+
+    .section-heading,
+    .section-heading-without-underline{
+        margin-bottom: 1.25em;
+        font-size: 5rem;
+    }
+    .subsection-heading{
+        font-size: 3.6rem;
+    }
+    .paragraph{
+        text-align: center;
+        padding: 0 1em;
+        &--normal{
+            font-size: 2.6rem;
+        }
+        &--big{
+            font-size: 3.2rem;
+        }
+    }
+
+    // HEADER HERO
+
+    .hero{
+        &__text{
+            left: 8%;
+            top: 10%;
+            transform: translate(0,0,0);
+            h1{
+                font-size: 6.4rem;
+            }
+        }
+        &__arrow{
+            &-icon{
+                bottom: 35%;
+                left: 20%;
+                padding: 3em;
+                &-img{
+                    transform: scale(2.25);
+                }
+            }
+        }
+    }
+    
+}

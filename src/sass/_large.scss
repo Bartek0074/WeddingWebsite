@@ -1,0 +1,43 @@
+@media (min-width: 992px) {
+
+    // ABOUT
+
+    .about{
+        .about__box{
+            &-element{
+            width: 38%;
+            height: 650px;
+                &-text-name{
+                    font-size: 2.8rem;
+                }
+                &-text-title{
+                    font-size: 2.4rem;
+                }
+                &-text-description{
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+
+    // INFO + ACCOMODATION
+
+    .info{
+        &__element{
+            &-details{
+                padding: 1.5em;
+            }
+            &-image{
+                height: 540px;
+              padding-right: 1em;
+            }
+            &-map{
+                padding-left: 1em;
+                iframe{
+                    height: 540px;
+                }
+            }
+        }
+    } 
+       
+}
