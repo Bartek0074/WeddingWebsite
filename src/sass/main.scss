@@ -275,6 +275,25 @@ hr {
     color: black;
 }
 
+// FOOTER
+
+footer {
+    text-align: center;
+    background-color: #333;
+    p {
+        padding: .5em;
+        color: white;
+        i {
+            color: white;
+            padding: 0.15em;
+            transition: color .3s;
+        }
+        i:hover {
+            color: #769293;
+        }
+    }
+}
+
 // MEDIA
 
 @import './small';
