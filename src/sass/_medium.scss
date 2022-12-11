@@ -1,73 +1,69 @@
 @media (min-width: 776px) {
+	// COMPONENTS
+	.section-heading,
+	.section-heading-without-underline {
+		font-size: 4.2rem;
+	}
+	.subsection-heading {
+		font-size: 3rem;
+	}
+	.section-heading::before {
+		width: 80px;
+		height: 2.5px;
+	}
+	.paragraph {
+		padding: 0 1em;
+		text-align: center;
+		&--normal {
+			font-size: 2.2rem;
+		}
+		&--big {
+			font-size: 2.6rem;
+		}
+	}
 
-    // COMPONENTS
+	// HEADER HERO
+	.hero {
+		background-image: url('../img/header-image-1920.jpg');
+		background-position: center;
+		&__text {
+			.hero__heading,
+			.hero__date {
+				font-size: 5.4rem;
+			}
+		}
+	}
 
-    .section-heading,
-    .section-heading-without-underline{
-        font-size: 4.2rem;
-    }
+	// ABOUT
+	.about {
+		.about__box {
+			.about__box-element {
+				width: 42%;
+			}
+		}
+	}
 
-    .subsection-heading{
-        font-size: 3rem;
-    }
-
-    .section-heading::before {
-        width: 80px;
-        height: 2.5px;
-    }
-
-    .paragraph{
-        text-align: center;
-        padding: 0 1em;
-        &--normal{
-            font-size: 2.2rem;
-        }
-        &--big{
-            font-size: 2.6rem;
-        }
-    }
-
-    // HEADER HERO
-
-    .hero{
-        background-image: url('../img/header-image-1920.jpg');
-        background-position: center;
-        &__text{
-            h1{
-                font-size: 5.4rem;
-            }
-        }
-    }
-
-    // ABOUT
-
-    .about__box-element{
-        width: 42%;
-    }
-
-    // INFO + ACCOMODATION
-
-    .info{
-        &__element{
-            &-details{
-                padding: 1em;
-                flex-direction: row;
-            }
-            &-image{
-                width: 50%;
-                height: 420px;
-                padding: 0;
-                padding-right: .5em;
-            }
-            &-map{
-                width: 50%;
-                padding: 0;
-                padding-left: .5em;
-                iframe{
-                    height: 420px;
-                }
-            }
-        }
-    }
-    
+	// INFO + ACCOMODATION
+	.info {
+		&__element {
+			.info__details {
+				flex-direction: row;
+				padding: 1em;
+			}
+			.info__image {
+				width: 50%;
+				height: 420px;
+				padding: 0;
+				padding-right: 0.5em;
+			}
+			.info__map {
+				width: 50%;
+				padding: 0;
+				padding-left: 0.5em;
+				iframe {
+					height: 420px;
+				}
+			}
+		}
+	}
 }

@@ -1,43 +1,39 @@
 @media (min-width: 992px) {
+	// ABOUT
+	.about {
+		.about__box {
+			.about__element {
+				width: 38%;
+				height: 650px;
+				.about__name {
+					font-size: 2.8rem;
+				}
+				.about__title {
+					font-size: 2.4rem;
+				}
+				.about__description {
+					font-size: 1.8rem;
+				}
+			}
+		}
+	}
 
-    // ABOUT
-
-    .about{
-        .about__box{
-            &-element{
-            width: 38%;
-            height: 650px;
-                &-text-name{
-                    font-size: 2.8rem;
-                }
-                &-text-title{
-                    font-size: 2.4rem;
-                }
-                &-text-description{
-                    font-size: 1.8rem;
-                }
-            }
-        }
-    }
-
-    // INFO + ACCOMODATION
-
-    .info{
-        &__element{
-            &-details{
-                padding: 1.5em;
-            }
-            &-image{
-                height: 540px;
-              padding-right: 1em;
-            }
-            &-map{
-                padding-left: 1em;
-                iframe{
-                    height: 540px;
-                }
-            }
-        }
-    } 
-       
+	// INFO + ACCOMODATION
+	.info {
+		&__element {
+			.info__details {
+				padding: 1.5em;
+			}
+			.info__image {
+				height: 540px;
+				padding-right: 1em;
+			}
+			.info__map {
+				padding-left: 1em;
+				iframe {
+					height: 540px;
+				}
+			}
+		}
+	}
 }

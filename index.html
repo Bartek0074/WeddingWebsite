@@ -15,8 +15,8 @@
         <div class="hero">
             <div class="hero__shadow"></div>
             <div class="hero__text">
-                <h1>Karolina&nbsp;i&nbsp;Tomek</h1>
-                <h1>17.12.2022r.</h1>
+                <h1 class="hero__heading">Karolina&nbsp;i&nbsp;Tomek</h1>
+                <h2 class="hero__date">23.04.2023r.</h2>
             </div>
             <a class="hero__arrow" href="#welcome">
                 <div class="hero__arrow-icon">
@@ -25,6 +25,7 @@
             </a>
         </div>
     </header>
+
     <section id="welcome" class="welcome section">
         <div class="wrapper">
             <h2 class="section-heading">Witamy</h2>
@@ -32,84 +33,90 @@
             </p>
         </div>
     </section>
+
     <section class="counter section section-color">
         <div class="wrapper">
             <p class="section-heading-without-underline">Do ślubu pozostało</p>
-            <div class="countdown section-heading-without-underline" data-count="2022/12/17 14:00" data-template="%d&nbsp;dni %h&nbsp;godzin %m&nbsp;minut %s&nbsp;sekund"></div>
+            <div class="countdown section-heading-without-underline" data-count="2023/04/23 14:00" data-template="%d&nbsp;dni %h&nbsp;godzin %m&nbsp;minut %s&nbsp;sekund"></div>
         </div>
     </section>
+
     <section class="about section">
         <div class="wrapper">
             <h2 class="section-heading">O nas</h2>
             <div class="about__box">
-                <div class="about__box-element about__box-element--first">   
-                    <div class="about__box-element-text">
-                        <p class="about__box-element-text-name">Karolina</p>
-                        <p class="about__box-element-text-title">Panna Młoda</p>
-                        <p class="about__box-element-text-description">Krótki, humorystyczny opis Karoliny zawierający najważniejsze informacje.</p>
+                <div class="about__element about__element--first">   
+                    <div class="about__text">
+                        <p class="about__name">Karolina</p>
+                        <p class="about__title">Panna Młoda</p>
+                        <p class="about__description">Krótki, humorystyczny opis Karoliny zawierający najważniejsze informacje.</p>
                     </div>
                 </div>
-                <div class="about__box-element about__box-element--second">
-                    <div class="about__box-element-text">
-                        <p class="about__box-element-text-name">Tomek</p>
-                        <p class="about__box-element-text-title">Pan Młody</p>
-                        <p class="about__box-element-text-description">Jeszcze krótszy i&nbsp;jeszcze bardziej humorystyczny opis Tomka.</p>
+                <div class="about__element about__element--second">
+                    <div class="about__text">
+                        <p class="about__name">Tomek</p>
+                        <p class="about__title">Pan Młody</p>
+                        <p class="about__description">Jeszcze krótszy i&nbsp;jeszcze bardziej humorystyczny opis Tomka.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="info section section-color">
         <div class="wrapper">
             <h2 class="section-heading">Informacje</h2>
             <div class="info__element">
                 <h3 class="subsection-heading">Data i godzina ślubu</h3>
-                <p class="paragraph--big">29.10.2022r. 14:00</p>
+                <p class="paragraph--big">23.04.2023r. 14:00</p>
             </div>
             <hr>
             <div class="info__element">
                 <h3 class="subsection-heading">Miejsce ślubu</h3>
                 <p class="paragraph--big">Kościół św.&nbsp;Rocha w&nbsp;Almerii</p>
-                <div class="info__element-details">
-                    <img class="info__element-image info__element-image--small" src="./dist/img/church-1280.jpg" alt="Kościół św. Rocha w Almerii">
-                    <img class="info__element-image info__element-image--big" src="./dist/img/church-1920.jpg" alt="Kościół św. Rocha w Almerii">
-                    <div class="info__element-map"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=pl&amp;q=parroquia%20de%20san%20roque%20almeria+(My%20Business%20Name)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="600" frameborder="0"><a href="https://www.gps.ie/wearable-gps/">wearable trackers</a></iframe></div>
+                <div class="info__details">
+                    <img class="info__image info__image--small" src="./dist/img/church-1280.jpg" alt="Kościół św. Rocha w Almerii">
+                    <img class="info__image info__image--big" src="./dist/img/church-1920.jpg" alt="Kościół św. Rocha w Almerii">
+                    <div class="info__map"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=pl&amp;q=parroquia%20de%20san%20roque%20almeria+(My%20Business%20Name)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="600" frameborder="0"><a href="https://www.gps.ie/wearable-gps/">wearable trackers</a></iframe></div>
                 </div>
             </div>
             <hr>
             <div class="info__element">
                 <h3 class="subsection-heading">Miejsce zabawy weselnej</h3>
                 <p class="paragraph--big">Hotel Catedral Almeria</p>
-                <div class="info__element-details">
-                    <img class="info__element-image info__element-image--small" src="./dist/img/weddinghouse-1280.jpg" alt="Hotel Catedral Almeria">
-                    <img class="info__element-image info__element-image--big" src="./dist/img/weddinghouse-1920.jpg" alt="Hotel Catedral Almeria">
-                    <div class="info__element-map"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=pl&amp;q=Hotel%20Catedral%20Almer%C3%ADa+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="600" frameborder="0"><a href="https://www.gps.ie/wearable-gps/">gps smartwatches</a></iframe></div>
+                <div class="info__details">
+                    <img class="info__image info__image--small" src="./dist/img/weddinghouse-1280.jpg" alt="Hotel Catedral Almeria">
+                    <img class="info__image info__image--big" src="./dist/img/weddinghouse-1920.jpg" alt="Hotel Catedral Almeria">
+                    <div class="info__map"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=pl&amp;q=Hotel%20Catedral%20Almer%C3%ADa+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="600" frameborder="0"><a href="https://www.gps.ie/wearable-gps/">gps smartwatches</a></iframe></div>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="section confirm">
         <div class="wrapper">
             <h2 class="section-heading">Potwierdzenie</h2>
             <h3 class="subsection-heading">Do kiedy?</h3>
-            <p class="paragraph--big">28.08.2022r.</p>
+            <p class="paragraph--big">26.03.2023r.</p>
             <hr>
             <h3 class="subsection-heading">Zadzwoń</h3>
-            <p class="paragraph--big"><a href="tel:+48123456789">123 456 789</a> lub <a href="tel:+48987 654 321">987 654 321</a></p>
+            <p class="paragraph--big"><a href="tel:+48 123 456 789">123 456 789</a> lub <a href="tel:+48 987 654 321">987 654 321</a></p>
         </div>
     </section>
-    <section class="accomodation info section section-color">
+
+    <section class="info section section-color">
         <div class="wrapper">
             <h2 class="section-heading">Noclegi</h2>
             <div class="info__element">
                 <h3 class="subsection-heading">Gran Hotel Almeria</h3>
                 <p class="paragraph--normal">Nie musisz martwić się o&nbsp;nocleg. Każdy nasz gość ma zapewnione miejsce w&nbsp;hotelu :)</p>
-                <div class="info__element-details">
-                    <img class="info__element-image info__element-image--small" src="./dist/img/accomodation-1280.jpg" alt="Gran Hotel Almeria">
-                    <img class="info__element-image info__element-image--big" src="./dist/img/accomodation-1920.jpg" alt="Gran Hotel Almeria">
-                    <div class="info__element-map"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=pl&amp;q=gran%20hotel%20almeria+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="600" frameborder="0"><a href="https://www.gps.ie/wearable-gps/">wearable trackers</a></iframe></div>
+                <div class="info__details">
+                    <img class="info__image info__image--small" src="./dist/img/accomodation-1280.jpg" alt="Gran Hotel Almeria">
+                    <img class="info__image info__image--big" src="./dist/img/accomodation-1920.jpg" alt="Gran Hotel Almeria">
+                    <div class="info__map"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=pl&amp;q=gran%20hotel%20almeria+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="600" frameborder="0"><a href="https://www.gps.ie/wearable-gps/">wearable trackers</a></iframe></div>
             </div>
     </section>
+
     <section class="section plan">
         <div class="wrapper">
             <h2 class="section-heading">Plan imprezy</h2>
@@ -137,11 +144,9 @@
             <p class="paragraph--normal">Galeria już gotowa! Aby zobaczyć zdjęcia <a class="link" href="">kliknij tutaj</a>.</p>
         </div>
     </section>
-    <footer>
-    <p class="footer__text"> &copy; <span class="footer-year"></span> | Bartosz Stępniak | 
-        <a href="https://github.com/Bartek0074" target="_blank"> <i class="fa-brands fa-github"></i></a> | 
-        <a href="https://bstpn.pl" target="_blank"> <i class="fa-brands fa-internet-explorer"></i></a></p>
-</footer>
-    <script src="./dist/js/main.min.js"></script>
+    <footer class="footer">
+    <p class="footer__text"> &copy; <span class="footer__year"></span> | Bartosz Stępniak | 
+        <a href="https://github.com/Bartek0074" target="_blank"> <i class="fa-brands fa-github"></i></a>
+</footer>    <script src="./dist/js/main.min.js"></script>
 </body>
 </html>

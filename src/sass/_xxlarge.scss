@@ -1,11 +1,9 @@
 @media (min-width: 1400px) {
-
-    // HEADER HERO
-
-    .hero__text{
-        h1{
-            font-size: 7.6rem;
-        }
-    }
-    
+	// HEADER HERO
+	.hero__text {
+		.hero__heading,
+		.hero__date {
+			font-size: 7.6rem;
+		}
+	}
 }

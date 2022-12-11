@@ -39,47 +39,6 @@
     let timeOfWedding = new Date(countdown.getAttribute('data-count')).getTime();
     let actualTime = new Date().getTime();
 
-    // let daysName;
-    // let hoursName;
-    // let secondsName;
-
-    // if(days === 1){
-    //   daysName = "dzień"
-    // }
-    // else{
-    //   daysName = "dni"
-    // }
-
-    // if(hours === 1){
-    //   hoursName = "godzina"
-    // }
-    // else if(hours === 2 || hours === 3 || hours === 4){
-    //   hoursName = "godziny"
-    // }
-    // else{
-    //   hoursName = "godzin"
-    // }
-
-    // if(minutes === 1){
-    //   minutesName = "minuta"
-    // }
-    // else if(hours === 2 || hours === 3 || hours === 4){
-    //   minutesName = "godziny"
-    // }
-    // else{
-    //   minutesName = "godzin"
-    // }
-
-    // if(seconds === 1){
-    //   secondsName = "sekunda"
-    // }
-    // else if(seconds === 2 || seconds === 3 || seconds === 4){
-    //   secondsName == "sekundy"
-    // }
-    // else{
-    //   secondsName = "sekund"
-    // }
-
     let output = countdown.getAttribute('data-template');
     // let output = `%d ${daysName} %h ${hoursName} %m ${minutesName} %s ${secondsName}`;
     output = output.replace('%w', weeks).replace('%d', days).replace('%h', hours).replace('%m', minutes).replace('%s', seconds);
@@ -92,7 +51,7 @@
 
 // FOOTER YEAR
 
-const footerYear = document.querySelector('.footer-year')
+const footerYear = document.querySelector('.footer__year')
 
 const handleCurrentYear = () => {
   const year = (new Date).getFullYear();
