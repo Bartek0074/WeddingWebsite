@@ -1,12 +1,15 @@
 # WeddingWebsite
 
-## My second website!</br>
+My second website ever made. Simple website with information about wedding.
 
-### You can check this website <a href="https://bartek0074.github.io/WeddingWebsite/">here</a>
+## Demo
+Live Demo [here](https://bartek0074.github.io/WeddingWebsite/).
 
+## Technologies
 
-⚙ Technology used:
-- HTML
-- SASS
-- JavaScript
-- Gulp
+- HTML,
+- JavaScript,
+- SASS,
+- BEM,
+- RWD,
+- Gulp.
